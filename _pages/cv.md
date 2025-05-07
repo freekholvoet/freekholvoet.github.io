@@ -9,12 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
 Work experience
 ======
 * Spring 2024: Academic Pages Collaborator
@@ -32,14 +26,16 @@ Work experience
   * Duties included: Tagging issues
   * Supervisor: Professor Git
   
-Skills
+Service and leadership
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Currently signed in to 43 different slack teams
+
+Education
+======
+* Ph.D in Actuarial science, KU Leuven, Belgium, 2026 (expected)
+* M.S. in Actuarial and Financial Engineering, KU Leuven, Belgium, 2021
+* M.S. in Insurance, KU Leuven, Belgium, 2014
+* B.S. in Mathematics, KU Leuven, 2013
 
 Publications
 ======
@@ -58,7 +54,3 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
