@@ -4,7 +4,8 @@
 
 .masthead {
   position: fixed;
-  background: var(--global-bg-color);
+  background-color: var(--global-bg_header-color); /* Solid background color */
+  color: white;  /*Text color for contrast */
   height: fit-content;
   top: 0;
   width: 100%;
@@ -20,7 +21,7 @@
     position: absolute;
     bottom: 0;
     height: 1px;
-    background: var(--global-border-color);
+    background: var(--global-bg_header-color); /* Match the header background color */
     width: 100%;
   }
 
@@ -40,6 +41,7 @@
 
     a {
       text-decoration: none;
+      color: white; /* Ensure links are also white for contrast */
     }
   }
 }
@@ -55,7 +57,7 @@
 }
 
 .masthead__menu-item {
-  background-color: var(--global-bg-color);
+  background-color: var(--global-bg_header-color);
   display: block;
   list-style-type: none;
   white-space: nowrap;
