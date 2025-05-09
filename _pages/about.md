@@ -36,3 +36,21 @@ My research focuses on insurance data science, combining actuarial methods with 
     </ul>
   </div>
 </div>
+
+<!-- Second Banner -->
+<div class="site-banner">
+  <div class="site-banner__inner">
+    <h2>Latest LinkedIn Posts</h2>
+    <div class="site-banner__items">
+      <!-- First LinkedIn Post -->
+      <div class="linkedin-post">
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7326657573426708480" height="797" width="100%" frameborder="0" allowfullscreen="" title="Ingevoegde bijdrage"></iframe>
+      </div>
+
+      <!-- Second LinkedIn Post -->
+      <div class="linkedin-post">
+        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7315296840680165379" height="475" width="100%" frameborder="0" allowfullscreen="" title="Ingevoegde bijdrage"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
