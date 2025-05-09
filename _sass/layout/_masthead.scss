@@ -41,7 +41,7 @@
 
     a {
       text-decoration: none;
-      color: rgb(229, 6, 6); /* Ensure links are also white for contrast */
+      color: white;
     }
   }
 }
@@ -57,13 +57,16 @@
 }
 
 .masthead__menu-item {
-  background-color: var(--global-bg_header-color);
-  display: block;
-  list-style-type: none;
-  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+}
 
-  &--lg {
-    padding-right: 2em;
-    font-weight: 700;
-  }
+.masthead,
+.masthead__menu,
+.masthead__menu-item,
+.masthead button,
+.masthead .hidden-links {
+  background-color: var(--global-bg_header-color) !important; /* Force the correct color */
+  color: white; /* Ensure text contrast */
+  border: none; /* Remove any borders */
 }

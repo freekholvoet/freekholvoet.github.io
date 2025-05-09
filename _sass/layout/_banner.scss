@@ -1,0 +1,37 @@
+
+.site-banner {
+  border: none;
+  padding-left: 0; /* Remove left padding */
+
+  h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+
+  &__items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: 15px;
+
+      a {
+        font-weight: bold;
+        color: #007acc;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: none;
+          color: white;
+          background-color: #007acc;
+        }
+      }
+
+      p {
+        font-size: 0.9em;
+        color: #555;
+      }
+    }
+  }
+}
