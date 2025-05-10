@@ -1,11 +1,10 @@
 ---
-title: "Neural networks for insurance pricing with frequency and severity data: a benchmark study from data preprocessing to technical tariff"
+title: "First Doctoral Seminar (PhD track) at KU Leuven"
 collection: talks
 type: "Seminar"
 permalink: /talks/2024_11_FirstDocSem_Leuven
-venue: "First Doctoral Seminar (PhD track)"
 date: 2024-11-13
-location: "Leuven, Belgium"
+venue: "Leuven, Belgium"
 ---
 
-Under construction
+Title: Neural networks for insurance pricing with frequency and severity data: a benchmark study from data preprocessing steps to technical tariff

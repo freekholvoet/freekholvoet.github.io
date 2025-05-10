@@ -1,11 +1,12 @@
 ---
-title: "Machine learning in insurance"
+title: "Invited talk at Thomas More"
 collection: talks
 type: "Invited talk"
 permalink: /talks/2022_10_InvTalk_TM
-venue: "Thomas More"
 date: 2022-10-14
-location: "Mechelen, Belgium"
+venue: "Mechelen, Belgium"
 ---
 
-Under construction
+Title: Machine learning applications in insurance
+
+Invited talk at Thomas More in Mechelen for the students from the Bachelor of Applied AI. 

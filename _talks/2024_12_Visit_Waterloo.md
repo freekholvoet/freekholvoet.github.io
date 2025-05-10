@@ -1,11 +1,10 @@
 ---
-title: "Neural networks for insurance pricing with frequency and severity data: a benchmark study from data preprocessing to technical tariff"
+title: "Weekly Seminars on Risk Management and Actuarial Science at University of Waterloo"
 collection: talks
 type: "Seminar"
 permalink: /talks/2024_12_Visit_Waterloo
-venue: "Weekly Seminars on Risk Management and Actuarial Science at University of Waterloo"
 date: 2024-12-04
-location: "Waterloo, Canada"
+venue: "Waterloo, Canada"
 ---
 
-Under construction
+Title: Neural networks for insurance pricing with frequency and severity data: a benchmark study from data preprocessing steps to technical tariff

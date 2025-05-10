@@ -1,11 +1,10 @@
 ---
-title: "Neural networks for insurance pricing with frequency and severity data: a benchmark study from data preprocessing to technical tariff"
+title: "Seminar during research visit at the University of Toronto"
 collection: talks
 type: "Seminar"
 permalink: /talks/2024_12_Visit_Toronto
-venue: "University of Toronto"
 date: 2024-12-02
-location: "Toronto, Canada"
+venue: "Toronto, Canada"
 ---
 
-Under construction
+Title: Neural networks for insurance pricing with frequency and severity data: a benchmark study from data preprocessing steps to technical tariff
