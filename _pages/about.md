@@ -27,7 +27,7 @@ My research focuses on insurance data science, combining actuarial methods with 
             {% if post.collection == "publications" %}
               <em>Published in {{ post.venue }}</em>
             {% elsif post.collection == "talks" %}
-              <em>{{ post.type }} at {{ post.venue }}, {{ post.location }}</em>
+              <em>{{ post.type }} in {{ post.venue }}</em>
             {% endif %}
             - {{ post.date | date: "%B %d, %Y" }}
           </p>
