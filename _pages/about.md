@@ -11,7 +11,7 @@ redirect_from:
 I am Freek, a PhD researcher in actuarial science at KU Leuven, under the supervision of <a href="https://katrienantonio.github.io" target="_blank">Prof. Katrien Antonio</a>. During my studies in mathematics and actuarial science, I gained practical experience at Delta Lloyd Life Insurance in Brussels, followed by nearly eight years specializing in risk modeling before returning to academia.
 <br>
 <br>
-My research focuses on insurance data science, combining actuarial methods with machine learning to address practical challenges in non-life insurance. I am particularly interested in developing interpretable models for pricing, incorporating various types of geographical data to improve portfolio management, and advancing techniques for modeling complex dependencies and multi-peril risks.
+My research focuses on insurance data science, combining actuarial methods with machine learning to address practical challenges in non-life insurance. I am particularly interested in developing interpretable models for pricing, incorporating various types of geographical data to improve portfolio management, and advancing techniques for modeling dependencies and multi-peril risks. I also have a strong focus on incorporating regulatory or operational concerns in a model’s outputs, and on translating academic research into practical, industry-relevant solutions.
 </div>
 
 <!-- Banner -->
