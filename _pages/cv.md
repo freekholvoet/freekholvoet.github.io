@@ -34,10 +34,14 @@ Services
   * Elected ABAP representative for the insurance research group
   * Member of the POC MAFE/MAFW
   * Member of the AFI council
+  * Member of the KU Leuven, FEB Campus council Leuven
+  * Member of the KU Leuven, FEB faculty council
 * 2024
   * Elected ABAP representative for the insurance research group
   * Member of the POC MAFE/MAFW
   * Member of the Subcommision MAFE/ZIM
+  * Member of the KU Leuven, FEB Campus council Leuven
+  * Member of the KU Leuven, FEB faculty council
 * 2023
   * Elected ABAP representative for the insurance research group
   * Member of the POC MAFE/MAFW
