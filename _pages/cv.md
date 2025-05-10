@@ -11,24 +11,47 @@ redirect_from:
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2021 - current: PhD candidate in actuarial science at KU Leuven, Belgium
+  * Started my PhD in November 2021 under supervision of Prof. dr. Katrien Antonio. Main focus will be the use of machine learning in actuarial science, with a focus on interpretabililty and usability in practice.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2015 - 2021: Risk modelling expert at NN Life Insurance, Belgium
+  * My traineeship at Delta Lloyd Life transitioned into a full-time position as Risk Modelling Expert in the Delta Lloyd Life Risk Modelling team. In 2017, Delta Lloyd merged with NN Insurance.
+  * he lapse assumption model was a large project throughout the years. Transitioning from an expert judgment-based model to a fully data-driven model with all calculations and calibration done in R. A combination is made between machine learning techniques and regulatory/operational effects.
+  * I was involved in the mortality assumption studies over the years, researching machine learning techniques for switch behaviour in individual universal life/unit-linked products. I performed several model changes in Prophet and was part of the team making the transition of the cash flow model in Prophet to IBM R3S (AFM).
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Service and leadership
+* 2014 - 2015: Risk Modelling trainee at Delta Lloyd Life Insurance, Belgium
+  * Two part-time traineeships during my studies in the Modelling team of Delta Lloyd Life (Risk Department). First traineeship was on the grouping of model points for cashflow projection model, with the use of Prophet. Second traineeship working on the lapse assumption model; analysis of methods in place, update and transition to R for the data process.
+
+Service
 ======
-* Currently signed in to 43 different slack teams
+* 2025
+  * Elected ABAP representative for the insurance research group
+  * Member of the POC MAFE/MAFW
+  * Member of the AFI council
+* 2024
+  * Elected ABAP representative for the insurance research group
+  * Member of the POC MAFE/MAFW
+  * Member of the Subcommision MAFE/ZIM
+* 2023
+  * Elected ABAP representative for the insurance research group
+  * Member of the POC MAFE/MAFW
+* 2022
+  * Member of the POC MAFE/MAFW
+* 2021
+  * Member of the POC MAFE/MAFW
+
+Teaching
+======
+* Teaching assistent
+  * 2021 - current: TA for the course Solvency of Financial Institutions. My tasks involved co-organizing the course structure, making contact with industry speakers from KBC, EY, AG Insurance, National Bank of Belgium and QBE Re, and the organization and grading of tests, exams and assignments.
+* Master thesis workleader
+  * 2021 - current: Workleader for master theses in the MAFE program and the Statistics & Data Science program at KU Leuven. Supervised over ten master theses between 2021 and current.
+
+Research visits
+======
+* December 2024
+  * University of Toronto
+  * Working together with Prof. Christopher Blier-Wong
 
 Education
 ======
@@ -47,10 +70,4 @@ Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
   {% endfor %}</ul>
