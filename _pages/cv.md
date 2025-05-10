@@ -79,8 +79,8 @@ Education
 Personal interests
 ======
 
-* Founder and head of the Project TableTop VZW in Herent, Belgium. We have been organising events around boardgames since 2017, most notably the yearly event <a href="https://www.hexgames.be/">HEX</a>
-* Woodcarver and woodturner under the pseudonym <a href="https://www.instagram.com/woodenpandas/">Wooden Pandas</a>. Completed four years of woordcarving school at the Qrios Leuven.
+* Founder and head of the Project TableTop VZW in Herent, Belgium. We have been organising events around boardgames since 2017, most notably the yearly event <a href="https://www.hexgames.be/" target="_blank">HEX</a>.
+* Woodcarver and woodturner under the pseudonym <a href="https://www.instagram.com/woodenpandas/" target="_blank">Wooden Pandas</a>. Completed four years of woordcarving school at the Qrios Leuven.
 * Trivia: fan of punkrock, postrock, and metal (melodic, trash) music. Used to be active in youth movements (Chiro). During my studies I was active in the student organisation Wina VZW.
 
 <hr style="border: none; border-top: 2px solid gray;" />
