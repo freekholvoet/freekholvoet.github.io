@@ -62,8 +62,7 @@ Research visits
 ======
 
 * December 2024
-  * University of Toronto
-  * Working together with Prof. Christopher Blier-Wong
+  * University of Toronto, on invitation from Prof. Christopher Blier-Wong.
 
 <hr style="border: none; border-top: 2px solid gray;" />
 
