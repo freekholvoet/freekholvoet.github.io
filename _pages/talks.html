@@ -9,18 +9,26 @@ author_profile: true
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
 {% endif %}
 
+<hr style="border: none; border-bottom: 1px solid gray; margin-top: 2em; margin-bottom: -1.5em;" />
 <h2>Upcoming</h2>
-{% assign upcoming_talks = site.talks | where_exp: "talk", "post.date > site.time" %}
+{% assign upcoming_talks = site.talks | where: "collection", "talks" | sort: "date" %}
+{% assign upcoming_talks = upcoming_talks | where_exp: "post", "post.date > site.time" %}
 {% if upcoming_talks.size > 0 %}
-  {% for talk in upcoming_talks %}
+  {% for post in upcoming_talks %}
     {% include archive-single-talk.html %}
   {% endfor %}
 {% else %}
   <p>No upcoming talks at the moment.</p>
 {% endif %}
 
+<hr style="border: none; border-bottom: 1px solid gray; margin-top: 2em; margin-bottom: -1.5em;" />
 <h2>Past</h2>
-{% assign past_talks = site.talks | where_exp: "talk", "post.date <= site.time" | sort: "date" | reverse %}
-{% for talk in past_talks %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+{% assign past_talks = site.talks | where: "collection", "talks" | sort: "date" | reverse %}
+{% assign past_talks = past_talks | where_exp: "post", "post.date <= site.time" %}
+{% if past_talks.size > 0 %}
+  {% for post in past_talks %}
+    {% include archive-single-talk.html %}
+  {% endfor %}
+{% else %}
+  <p>No past talks available.</p>
+{% endif %}
