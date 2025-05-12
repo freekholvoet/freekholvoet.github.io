@@ -101,6 +101,7 @@ Publications
 Talks
 ======
 
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  <ul>{% assign past_talks = site.talks | where_exp: "talk", "talk.date <= site.time" | sort: "date" | reverse %}
+    {% for talk in past_talks %}
+    {% include archive-single-talk.html %}
+    {% endfor %}</ul>

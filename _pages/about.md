@@ -19,7 +19,7 @@ My research focuses on insurance data science, combining actuarial methods with 
   <div class="site-banner__inner">
     <h2>Latest Updates</h2>
     <ul class="site-banner__items">
-      {% assign latest_posts = site.talks | concat: site.publications | sort: "date" | reverse %}
+      {% assign latest_posts = site.talks | where_exp: "post", "post.date <= site.time" | concat: site.publications | sort: "date" | reverse %}
       {% for post in latest_posts limit:4 %}
         <li>
           <a href="{{ post.url }}">{{ post.title }}</a>
