@@ -4,9 +4,9 @@
 
 .masthead {
   position: fixed;
-  background-color: var(--global-bg_header-color); /* Solid background color */
-  color: white;  /*Text color for contrast */
-  height: fit-content;
+  background: var(--global-bg_header-color);
+  border-bottom: 1px solid var(--global-border-color);
+  height: $masthead-height;
   top: 0;
   width: 100%;
 
@@ -16,19 +16,11 @@
           animation-delay: 0.15s;
   z-index: 20;
 
-  &::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    height: 1px;
-    background: var(--global-bg_header-color); /* Match the header background color */
-    width: 100%;
-  }
 
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 0.5em 1em;
+    padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -41,13 +33,17 @@
 
     a {
       text-decoration: none;
-      color: white;
+      color: var(--global-masthead-link-color);
+      
+      &:hover {
+        color: var(--global-masthead-link-color-hover);
+      }
     }
   }
 }
 
 .masthead__menu {
-  background-color: var(--global-bg_header-color);
+
   ul {
     margin: 0;
     padding: 0;
@@ -57,16 +53,12 @@
 }
 
 .masthead__menu-item {
-  padding: 0;
-  margin: 0;
-}
+  display: block;
+  list-style-type: none;
+  white-space: nowrap;
 
-.masthead,
-.masthead__menu,
-.masthead__menu-item,
-.masthead button,
-.masthead .hidden-links {
-  background-color: var(--global-bg_header-color) !important; /* Force the correct color */
-  color: white; /* Ensure text contrast */
-  border: none; /* Remove any borders */
+  &--lg {
+    padding-right: 2em;
+    font-weight: 700;
+  }
 }
