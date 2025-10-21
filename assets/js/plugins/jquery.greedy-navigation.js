@@ -74,9 +74,15 @@ function updateNav() {
 $(window).on('resize', function () {
   updateNav();
 });
-screen.orientation.addEventListener("change", function () {
-  updateNav();
-});
+
+// screen.orientation is not available in all browsers (or in some embedded webviews).
+// Guard the call and provide a fallback to the older orientationchange event.
+if (typeof screen !== 'undefined' && screen.orientation && typeof screen.orientation.addEventListener === 'function') {
+  screen.orientation.addEventListener('change', function () { updateNav(); });
+} else if (typeof window !== 'undefined' && 'onorientationchange' in window) {
+  // older browsers
+  window.addEventListener('orientationchange', function () { updateNav(); });
+}
 
 $btn.on('click', function () {
   $hlinks.toggleClass('hidden');
