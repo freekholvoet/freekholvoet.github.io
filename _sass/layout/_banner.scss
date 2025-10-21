@@ -55,16 +55,28 @@
   width: 100%;
   overflow: hidden;
   
+  // Create a responsive container with aspect ratio using CSS variable
+  &::before {
+    content: "";
+    display: block;
+    padding-top: var(--aspect-ratio, 150%); // Use custom ratio or default to 150%
+  }
+  
   iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
     border: none;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-height: 600px; // Limit maximum height
-    
-    @media screen and (max-width: 768px) {
-      max-height: 500px; // Smaller max height on mobile
-      height: auto;
-    }
+  }
+  
+  // Optional: Set max-height to prevent extremely tall posts
+  max-height: 800px;
+  
+  @media screen and (max-width: 768px) {
+    max-height: 600px;
   }
 }

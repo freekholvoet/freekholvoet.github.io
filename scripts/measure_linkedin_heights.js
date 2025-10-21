@@ -23,16 +23,30 @@ async function measure(url, page) {
       // ignore
     }
 
-    // Measure the document's full height
-    const height = await page.evaluate(() => {
+    // Measure the document's full height and width
+    const dimensions = await page.evaluate(() => {
       const doc = document.documentElement;
       const body = document.body;
-      return Math.max(
+      const height = Math.max(
         body.scrollHeight, body.offsetHeight,
         doc.clientHeight, doc.scrollHeight, doc.offsetHeight
       );
+      const width = Math.max(
+        body.scrollWidth, body.offsetWidth,
+        doc.clientWidth, doc.scrollWidth, doc.offsetWidth
+      );
+      return { height, width };
     });
-    return Math.round(height || 0);
+    
+    // Calculate aspect ratio as percentage (height/width * 100)
+    const ratio = dimensions.width > 0 
+      ? Math.round((dimensions.height / dimensions.width) * 100)
+      : 150; // fallback to 150% if width is 0
+    
+    return {
+      height: Math.round(dimensions.height || 0),
+      ratio: ratio
+    };
   } catch (err) {
     console.error('measure error for', url, err && err.message || err);
     return null;
@@ -66,15 +80,17 @@ async function main() {
     const post = posts[i];
     if (!post || !post.url) continue;
     console.log(`Measuring [${i}] ${post.url} ...`);
-    const h = await measure(post.url, page);
-    if (h && h > 0) {
-      console.log(` -> measured ${h}px`);
-      if (post.height !== h) {
-        posts[i].height = h;
+    const result = await measure(post.url, page);
+    if (result && result.height > 0) {
+      console.log(` -> measured ${result.height}px (width: ${await page.viewport().width}px, ratio: ${result.ratio}%)`);
+      if (post.height !== result.height || post.ratio !== result.ratio) {
+        posts[i].height = result.height;
+        posts[i].ratio = result.ratio;
         changed = true;
       }
     } else {
-      console.log(' -> measurement failed, leaving existing height:', post.height);
+      console.log(' -> measurement failed, leaving existing values:', 
+                  `height: ${post.height}, ratio: ${post.ratio || 'N/A'}`);
     }
   }
 
@@ -84,7 +100,7 @@ async function main() {
     // backup and write
     fs.copyFileSync(dataPath, backupPath);
     fs.writeFileSync(dataPath, yaml.dump(posts, { lineWidth: -1 }), 'utf8');
-    console.log('Updated heights written to', dataPath, ' (backup at', backupPath, ')');
+    console.log('Updated heights and ratios written to', dataPath, ' (backup at', backupPath, ')');
   } else {
     console.log('No changes detected; file not updated.');
   }

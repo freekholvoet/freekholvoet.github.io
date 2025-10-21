@@ -5,16 +5,14 @@
     <div class="site-banner__items">
       {% assign linkedin_posts = site.data.linkedin_posts | slice: 0, 2 %}
       {% for post in linkedin_posts %}
-      <div class="linkedin-post">
+      <div class="linkedin-post" style="--aspect-ratio: {{ post.ratio | default: 150 }}%;">
         <iframe
           class="linkedin-embed"
           src="{{ post.url }}"
-          height="{{ post.height }}"
           width="100%"
           frameborder="0"
           allowfullscreen=""
           title="LinkedIn Post"
-          style="max-width:100%; border:0; display:block;"
         ></iframe>
       </div>
       {% endfor %}
