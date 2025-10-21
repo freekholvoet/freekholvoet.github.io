@@ -38,16 +38,4 @@ My research focuses on insurance data science, combining actuarial methods with 
 </div>
 
 <!-- Second Banner -->
-<div class="site-banner">
-  <div class="site-banner__inner">
-    <h2>Latest LinkedIn Posts</h2>
-    <div class="site-banner__items">
-      {% assign linkedin_posts = site.data.linkedin_posts | slice: 0, 2 %}
-      {% for post in linkedin_posts %}
-      <div class="linkedin-post">
-        <iframe src="{{ post.url }}" height="500" width="100%" frameborder="0" allowfullscreen="" title="LinkedIn Post" style="max-width: 100%;"></iframe>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
+{% include linkedin-banner.html %}
