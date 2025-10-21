@@ -45,7 +45,7 @@ My research focuses on insurance data science, combining actuarial methods with 
       {% assign linkedin_posts = site.data.linkedin_posts | slice: 0, 2 %}
       {% for post in linkedin_posts %}
       <div class="linkedin-post">
-        <iframe src="{{ post.url }}" height="{{ post.height }}" width="100%" frameborder="0" allowfullscreen="" title="LinkedIn Post"></iframe>
+        <iframe src="{{ post.url }}" height="500" width="100%" frameborder="0" allowfullscreen="" title="LinkedIn Post" style="max-width: 100%;"></iframe>
       </div>
       {% endfor %}
     </div>

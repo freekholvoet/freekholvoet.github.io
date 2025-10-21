@@ -2,10 +2,17 @@
 .site-banner {
   border: none;
   padding-left: 0; /* Remove left padding */
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; // Prevent horizontal overflow
 
   h2 {
     font-size: 1.8em;
     margin-bottom: 10px;
+    
+    @media screen and (max-width: 768px) {
+      font-size: 1.4em; // Smaller heading on mobile
+    }
   }
 
   &__items {
@@ -20,6 +27,7 @@
         font-weight: bold;
         color: #007acc;
         text-decoration: none;
+        word-wrap: break-word; // Prevent long text overflow
 
         &:hover {
           text-decoration: none;
@@ -31,6 +39,11 @@
       p {
         font-size: 0.9em;
         color: #555;
+        word-wrap: break-word; // Prevent long text overflow
+        
+        @media screen and (max-width: 768px) {
+          font-size: 0.85em; // Slightly smaller on mobile
+        }
       }
     }
   }
@@ -38,10 +51,20 @@
 
 .linkedin-post {
   margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  
   iframe {
     width: 100%;
     border: none;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 600px; // Limit maximum height
+    
+    @media screen and (max-width: 768px) {
+      max-height: 500px; // Smaller max height on mobile
+      height: auto;
+    }
   }
 }
