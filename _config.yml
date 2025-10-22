@@ -14,8 +14,8 @@ title_separator          : "-"
 name                     : &name "Freek Holvoet"
 description              : &description "personal description"
 baseurl                  : "" # Add your repository name here
-url                      : "https://freekholvoet.github.io" # Your GitHub Pages URL
-repository               : "academicpages/academicpages.github.io"
+url                      : https://freekholvoet.github.io
+repository               : "freekholvoet/freekholvoet.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
