@@ -9,6 +9,7 @@
   height: fit-content;
   top: 0;
   width: 100%;
+  overflow: visible;
 
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -27,8 +28,9 @@
     }
 
     nav {
-      z-index: 1001;
+      z-index: 10;
       position: relative;
+      overflow: visible;
     }
 
     a {

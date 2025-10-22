@@ -3,7 +3,7 @@
   <div class="site-banner__inner">
     <h2>Latest LinkedIn Posts</h2>
     <div class="site-banner__items">
-      {% assign linkedin_posts = site.data.linkedin_posts | slice: 0, 2 %}
+      {% assign linkedin_posts = site.data.linkedin_posts | slice: 0, 3 %}
       {% for post in linkedin_posts %}
       <div class="linkedin-post" style="--aspect-ratio: {{ post.ratio }}%;">
         <iframe
