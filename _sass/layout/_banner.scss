@@ -6,6 +6,11 @@
   max-width: 100%;
   overflow-x: hidden; // Prevent horizontal overflow
 
+  // Hide LinkedIn banner on mobile devices
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+
   h2 {
     font-size: 1.8em;
     margin-bottom: 10px;
