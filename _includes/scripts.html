@@ -1,3 +1,11 @@
-<script src="{{ base_path }}/assets/js/main.min.js"></script>
+<!-- Load runtime scripts individually to avoid bundling issues and ensure mobile-safe orientation handling -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/fitvids@2.1.1/dist/fitvids.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/magnific-popup@1.2.0/dist/jquery.magnific-popup.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-smooth-scroll@2.2.0/jquery.smooth-scroll.min.js"></script>
+
+<!-- Local site scripts (use relative_url to respect site.baseurl locally and in production) -->
+<script src="{{ '/assets/js/plugins/jquery.greedy-navigation.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 
 {% include analytics.html %}
