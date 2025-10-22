@@ -175,7 +175,7 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  background: var(--global-bg_header-color);
+  background: var(--global-bg-color);
 
   a {
     display: block;
@@ -226,31 +226,12 @@
     }
 
     #theme-toggle {
-      position: absolute; /* Position it relative to the masthead */
-      right: 1rem; /* Align it to the right with some spacing */
-      top: 50%; /* Center it vertically */
-      transform: translateY(-50%); /* Adjust for vertical centering */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 40px; /* Set a fixed width */
-      height: 40px; /* Set a fixed height */
-      background-color: var(--global-bg_header-color); /* Match the header background */
-      border-radius: 50%; /* Make it circular */
-      cursor: pointer;
-      z-index: 100; /* Ensure it appears above other elements */
-    }
-
-    #theme-toggle a {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: var(--global-text-color); /* Set the icon color */
-      font-size: 1.2rem; /* Adjust icon size */
-    }
-    
-    #theme-toggle:hover {
-      background-color: var(--global-link-color-hover); /* Change background on hover */
+      a {
+        width: 25px;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+      }
     }
 
     a {
