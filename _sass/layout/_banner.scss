@@ -15,6 +15,13 @@
     }
   }
 
+  // Hide LinkedIn banner completely on mobile for performance
+  &.linkedin-banner {
+    @media screen and (max-width: 768px) {
+      display: none !important;
+    }
+  }
+
   &__items {
     list-style: none;
     padding: 0;
