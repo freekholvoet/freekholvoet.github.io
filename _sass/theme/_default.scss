@@ -45,3 +45,10 @@ $sidebar-screen-min-width   : 1024px;
     --global-text-color-light           : #{$light-gray};
     --global-thead-color                : #{$lighter-gray};
 }
+
+/* Sass variables for backward compatibility with Minimal Mistakes template */
+$border-color               : $lighter-gray;
+$primary-color              : $gray;
+$masthead-link-color        : $dark-gray;
+$masthead-link-color-hover  : mix(#000, $gray, 25%);
+$background-color           : #fff;
