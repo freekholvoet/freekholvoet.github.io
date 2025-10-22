@@ -4,7 +4,8 @@
 
 .masthead {
   position: fixed;
-  background: var(--global-bg-color);
+  background: var(--global-link-color);
+  border-bottom: 2px solid var(--global-border-color);
   height: fit-content;
   top: 0;
   width: 100%;

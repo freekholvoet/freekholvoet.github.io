@@ -175,31 +175,42 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  background: var(--global-bg-color);
+  background: transparent;
 
   a {
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;
-    color: var(--global-masthead-link-color);
+    color: #fff;
     text-decoration: none;
 
     &:hover {
-      color: var(--global-masthead-link-color-hover);
+      color: rgba(255, 255, 255, 0.8);
     }
   }
 
   button {
     position: absolute;
-    height: 2.5rem;
+    height: 2rem;
     right: 0;
     padding: 0 0.5rem;
     border: 0;
     outline: none;
-    background-color: var(--global-base-color);
+    background-color: rgba(0, 0, 0, 0.2);
     color: #fff;
     cursor: pointer;
     z-index: 100;
+    border-radius: 4px;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    // Always show button on mobile
+    @media screen and (max-width: 768px) {
+      display: block !important;
+      visibility: visible !important;
+    }
   }
 
   .visible-links {
@@ -223,6 +234,13 @@
           margin-right: 0;
         }
       }
+
+      // Hide all menu items except the first one (site name) on mobile
+      &:not(:first-child) {
+        @media screen and (max-width: 768px) {
+          display: none;
+        }
+      }
     }
 
     a {
@@ -234,7 +252,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: var(--global-border-color);
+        background: rgba(255, 255, 255, 0.8);
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
@@ -259,17 +277,18 @@
     padding: 5px;
     border: 1px solid var(--global-border-color);
     border-radius: $border-radius;
-    background: #fff;
+    background: var(--global-link-color);
     box-shadow: 0 0 10px rgba(#000, 0.25);
 
     a {
       margin: 0;
       padding: 10px 20px;
       font-size: $type-size-5;
+      color: #fff;
 
       &:hover {
-        color: var(--global-masthead-link-color-hover);
-        background: var(--global-border-color);
+        color: #fff;
+        background: rgba(255, 255, 255, 0.2);
       }
     }
 
@@ -294,14 +313,14 @@
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
-      border-color: #fff transparent;
+      border-color: var(--global-link-color) transparent;
       display: block;
       z-index: 1;
     }
 
     li {
       display: block;
-      border-bottom: 1px solid var(--global-border-color);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 
       &:last-child {
         border-bottom: none;
