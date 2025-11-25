@@ -3,7 +3,7 @@ title: "Seminar during research visit at the University of Lausanne"
 collection: talks
 type: "Seminar"
 permalink: /talks/2026_01_Visit_Lausanne
-date: 2025-01-20
+date: 2026-01-20
 venue: "Lausanne, Switzerland"
 ---
 
