@@ -1,5 +1,5 @@
 ---
-title: "ASTIN Bulleting conference"
+title: "ASTIN Bulletin conference"
 collection: talks
 type: "Conference presentation"
 permalink: /talks/2026_01_ASTIN_Zurich
