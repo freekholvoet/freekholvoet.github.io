@@ -1,5 +1,5 @@
 ---
-title: "AI|BE session - organized by AG Insurance"
+title: "AIBE session - organized by AG Insurance"
 collection: talks
 type: "Invited talk"
 permalink: /talks/2025_12_IABEsession
