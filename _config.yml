@@ -78,6 +78,8 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
+  preprint:
+    title: 'Preprints'
   manuscripts:
     title: 'Journal Articles'    
 

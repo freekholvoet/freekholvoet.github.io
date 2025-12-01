@@ -25,7 +25,11 @@ My research focuses on insurance data science, combining actuarial methods with 
           <a href="{{ post.url }}">{{ post.title }}</a>
           <p>
             {% if post.collection == "publications" %}
-              <em>Published in {{ post.venue }}</em>
+              {% if post.category == "preprint" %}
+                <em>Available as {{ post.venue }}</em>
+              {% else %}
+                <em>Published in {{ post.venue }}</em>
+              {% endif %}
             {% elsif post.collection == "talks" %}
               <em>{{ post.type }} in {{ post.venue }}</em>
             {% endif %}

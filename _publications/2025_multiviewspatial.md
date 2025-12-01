@@ -1,7 +1,7 @@
 ---
 title: "A multi-view contrastive learning framework for spatial embeddings in risk modelling"
 collection: publications
-category: manuscripts
+category: preprint
 permalink: /publication/2025_multiviewspatial
 excerpt: 'Incorporating spatial information, particularly those influenced by climate, weather, and demographic factors, is crucial for improving underwriting precision and enhancing risk management in insurance. However, spatial data are often unstructured, high-dimensional, and difficult to integrate into predictive models. Embedding methods are needed to convert spatial data into meaningful representations for modelling tasks. We propose a novel multi-view contrastive learning framework for generating spatial embeddings that combine information from multiple spatial data sources. To train the model, we construct a spatial dataset that merges satellite imagery and OpenStreetMap features across Europe. The framework aligns these spatial views with coordinate-based encodings, producing low-dimensional embeddings that capture both spatial structure and contextual similarity. Once trained, the model generates embeddings directly from latitude-longitude pairs, enabling any dataset with coordinates to be enriched with meaningful spatial features without requiring access to the original spatial inputs. In a case study on French real estate prices, we compare models trained on raw coordinates against those using our spatial embeddings as inputs. The embeddings consistently improve predictive accuracy across generalised linear, additive, and boosting models, while providing interpretable spatial effects and demonstrating transferability to unseen regions.'
 date: 2025-11-22
