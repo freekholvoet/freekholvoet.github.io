@@ -26,7 +26,7 @@ My research focuses on insurance data science, combining actuarial methods with 
           <p>
             {% if post.collection == "publications" %}
               {% if post.category == "preprint" %}
-                <em>Available as {{ post.venue }}</em>
+                <em>Available as preprint via {{ post.venue }}</em>
               {% else %}
                 <em>Published in {{ post.venue }}</em>
               {% endif %}
