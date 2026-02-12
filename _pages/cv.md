@@ -85,7 +85,7 @@ Grants
 * KU Leuven Global Seed Funding 2026
   * SAFIR: SpAtiotemporal Foundation models for understanding and modelling 21st century emerging Insurance Risks
   * Project between the University of Toronto (Christopher Blier-Wong and Andrei Badescu) and KU Leuven (Katrien Antonio and me)
-  * Involved both in the writing the grant application and as scientific collaborator on the project
+  * Involved both in writing the grant application and as scientific collaborator on the project
 
 <hr style="border: none; border-top: 2px solid gray;" />
 
