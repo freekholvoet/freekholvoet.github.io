@@ -70,6 +70,35 @@ Research visits
 
 <hr style="border: none; border-top: 2px solid gray;" />
 
+Publications
+======
+
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+<hr style="border: none; border-top: 2px solid gray;" />
+
+Grants
+======
+
+* KU Leuven Global Seed Funding 2026
+  * SAFIR: SpAtiotemporal Foundation models for understanding and modelling 21st century emerging Insurance Risks
+  * Project between the University of Toronto (Christopher Blier-Wong and Andrei Badescu) and KU Leuven (Katrien Antonio and me)
+  * Involved as scientific collaborator both in the grant application and on the project
+
+Talks
+======
+
+<ul>
+  {% assign latest_posts = site.talks | where_exp: "post", "post.date <= site.time" | sort: "date" | reverse %}
+  {% for post in latest_posts %}
+    {% include archive-single-cv.html %}
+  {% endfor %}
+</ul>
+
+<hr style="border: none; border-top: 2px solid gray;" />
+
 Education
 ======
 
@@ -84,26 +113,5 @@ Personal interests
 ======
 
 * Founder and head of the Project TableTop VZW in Herent, Belgium. We have been organising events around boardgames since 2017, most notably the yearly event <a href="https://www.hexgames.be/" target="_blank">HEX</a>.
-* Woodcarver and woodturner under the pseudonym <a href="https://www.instagram.com/woodenpandas/" target="_blank">Wooden Pandas</a>. Completed four years of woordcarving school at the Qrios Leuven.
+* Woodcarver and woodturner under the pseudonym <a href="https://www.instagram.com/woodenpandas/" target="_blank">Wooden Pandas</a>. Completed four years of woordcarving school at Qrios Leuven.
 * Trivia: fan of punkrock, postrock, and metal (melodic, trash) music. Used to be active in youth movements (Chiro). During my studies I was active in the student organisation Wina VZW.
-
-<hr style="border: none; border-top: 2px solid gray;" />
-
-Publications
-======
-
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
-<hr style="border: none; border-top: 2px solid gray;" />
-
-Talks
-======
-
-<ul>
-  {% assign latest_posts = site.talks | where_exp: "post", "post.date <= site.time" | sort: "date" | reverse %}
-  {% for post in latest_posts %}
-    {% include archive-single-cv.html %}
-  {% endfor %}
-</ul>
