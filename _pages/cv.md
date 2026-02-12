@@ -87,6 +87,8 @@ Grants
   * Project between the University of Toronto (Christopher Blier-Wong and Andrei Badescu) and KU Leuven (Katrien Antonio and me)
   * Involved both in the writing the grant application and as scientific collaborator on the project
 
+<hr style="border: none; border-top: 2px solid gray;" />
+
 Talks
 ======
 
