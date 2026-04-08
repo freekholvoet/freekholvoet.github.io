@@ -30,25 +30,12 @@ Work experience
 Services
 ======
 
-* 2025
-  * Elected ABAP representative for the insurance research group
-  * Member of the POC MAFE/MAFW
-  * Member of the AFI council
-  * Member of the KU Leuven, FEB Campus council Leuven
-  * Member of the KU Leuven, FEB faculty council
-* 2024
-  * Elected ABAP representative for the insurance research group
-  * Member of the POC MAFE/MAFW
-  * Member of the Subcommision MAFE/ZIM
-  * Member of the KU Leuven, FEB Campus council Leuven
-  * Member of the KU Leuven, FEB faculty council
-* 2023
-  * Elected ABAP representative for the insurance research group
-  * Member of the POC MAFE/MAFW
-* 2022
-  * Member of the POC MAFE/MAFW
-* 2021
-  * Member of the POC MAFE/MAFW
+* 2021 - current: Member of the POC MAFE/MAFW
+* 2023 - current: Elected ABAP representative for the insurance research group
+* 2024 - current: Member of the KU Leuven, FEB Campus council Leuven
+* 2024 - current: Member of the KU Leuven, FEB faculty council
+* 2024 - current: Member of the Subcommision MAFE/ZIM
+* 2025 - current: Member of the AFI council
 
 <hr style="border: none; border-top: 2px solid gray;" />
 
@@ -64,9 +51,10 @@ Teaching
 
 Research visits
 ======
-
+* January 2026
+  * HEC Lausanne, with Prof. Hansjoerg Albrecher.
 * December 2024
-  * University of Toronto, on invitation from Prof. Christopher Blier-Wong.
+  * University of Toronto, with Prof. Christopher Blier-Wong.
 
 <hr style="border: none; border-top: 2px solid gray;" />
 
@@ -116,4 +104,4 @@ Personal interests
 
 * Founder and head of the Project TableTop VZW in Herent, Belgium. We have been organising events around boardgames since 2017, most notably the yearly event <a href="https://www.hexgames.be/" target="_blank">HEX</a>.
 * Woodcarver and woodturner under the pseudonym <a href="https://www.instagram.com/woodenpandas/" target="_blank">Wooden Pandas</a>. Completed four years of woordcarving school at Qrios Leuven.
-* Trivia: fan of punkrock, postrock, and metal (melodic, trash) music. Used to be active in youth movements (Chiro). During my studies I was active in the student organisation Wina VZW.
+* Trivia: fan of punkrock, postrock, and metal (melodic, trash) music. Used to be active in youth movement (Chiro). During my studies I was active in the student organisation Wina VZW.
