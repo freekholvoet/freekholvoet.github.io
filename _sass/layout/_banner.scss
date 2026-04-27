@@ -52,26 +52,18 @@
 .linkedin-post {
   margin-bottom: 20px;
   width: 100%;
-  overflow: hidden;
-  position: relative;
-  min-height: 600px;
-  
-  // Use aspect ratio to scale height with width
-  &::before {
-    content: "";
-    display: block;
-    padding-top: var(--aspect-ratio, 100%);
+  height: 750px;
+
+  @media screen and (max-width: 768px) {
+    height: 500px;
   }
-  
+
   iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     border: none;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: auto; // Allow scrolling if content doesn't fit
+    overflow: auto;
   }
 }
