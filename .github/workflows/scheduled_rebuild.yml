@@ -1,0 +1,18 @@
+name: Scheduled Site Rebuild
+
+on:
+  schedule:
+    - cron: '0 4 * * 1'  # Every Monday at 4:00 UTC
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Push empty commit to trigger Pages rebuild
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "Scheduled rebuild to update talk dates"
+          git push
