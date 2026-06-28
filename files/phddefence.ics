@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//freekholvoet.be//PhD Defence//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTART:20260826T143000Z
+DTEND:20260826T190000Z
+SUMMARY:PhD Defence of Freek Holvoet
+DESCRIPTION:Deep learning applications in non-life insurance pricing and risk management.\nDoors open from 16:30\, defence starts at 17:00\, reception until 21:00.
+LOCATION:Auditorium Van Der Eecken (HOGC 02.28)\, Naamsestraat 69\, 3000 Leuven\, Belgium
+URL:https://freekholvoet.be/phddefence/
+END:VEVENT
+END:VCALENDAR
