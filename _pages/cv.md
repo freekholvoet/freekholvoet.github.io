@@ -36,6 +36,7 @@ Services
 * 2024 - current: Member of the KU Leuven, FEB faculty council
 * 2024 - current: Member of the Subcommision MAFE/ZIM
 * 2025 - current: Member of the AFI council
+* Peer review service: ASTIN Bulletin, European Actuarial Journal, Insurance: Mathematics and Economics
 
 <hr style="border: none; border-top: 2px solid gray;" />
 
