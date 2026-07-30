@@ -45,7 +45,7 @@ Teaching
   * 2026 - 2027 (upcoming): Guest lecturer for part of the course Beleidsinformatiesystemen (3 of 6 ECTS), covering Information Systems & Strategy, Business Intelligence & Data Analytics, and State of the Art in AI.
   * Three deliveries, 9 ECTS in total: campus Leuven in English (semester 1) and in Dutch (semester 2), and campus Kulak Kortrijk in Dutch (semester 2).
   * Responsible for lectures, course material and assessment for these chapters.
-* Teaching assistent
+* Teaching assistant
   * 2021 - current: TA for the course Solvency of Financial Institutions. My tasks involved co-organizing the course structure, making contact with industry speakers from KBC, EY, AG Insurance, National Bank of Belgium and QBE Re, and the organization and grading of tests, exams and assignments.
 * Master thesis workleader
   * 2021 - current: Workleader for master theses in the MAFE program and the Statistics & Data Science program at KU Leuven. Supervised over ten master theses between 2021 and current.
