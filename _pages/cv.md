@@ -16,6 +16,7 @@ Work experience
 
 * 2021 - current: PhD candidate in actuarial science at KU Leuven, Belgium
   * Started my PhD in November 2021 under supervision of Prof. dr. Katrien Antonio. Focus is on machine learning and deep learning application in non-life insurance and risk management.
+  * Public defence of the PhD planned for 26 August, 2026.
 
 * 2015 - 2021: Risk modelling expert at NN Life Insurance, Belgium
   * My traineeship at Delta Lloyd Life transitioned into a full-time position as Risk Modelling Expert in the Delta Lloyd Life Risk Modelling team. In 2017, Delta Lloyd merged with NN Insurance.
