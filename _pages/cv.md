@@ -32,10 +32,8 @@ Services
 
 * 2021 - current: Member of the POC MAFE/MAFW
 * 2023 - current: Elected ABAP representative for the insurance research group
-* 2024 - current: Member of the KU Leuven, FEB Campus council Leuven
-* 2024 - current: Member of the KU Leuven, FEB faculty council
 * 2024 - current: Member of the Subcommision MAFE/ZIM
-* 2025 - current: Member of the AFI council
+* 2025 - current: Member of the AFI council (as ABAP representative)
 * Peer review service: ASTIN Bulletin, European Actuarial Journal, Insurance: Mathematics and Economics
 
 <hr style="border: none; border-top: 2px solid gray;" />
@@ -70,6 +68,11 @@ Publications
 
 Grants
 ======
+
+* KU Leuven Internal Funds C3 2026
+  * A climate-risk engine for insurance risk assessment
+  * Two-year postdoctoral project at KU Leuven (LRisk, Katrien Antonio and me), with three industry partners
+  * Wrote the grant application and am the funded postdoctoral researcher on the project
 
 * KU Leuven Global Seed Funding 2026
   * SAFIR: SpAtiotemporal Foundation models for understanding and modelling 21st century emerging Insurance Risks
