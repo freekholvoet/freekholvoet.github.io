@@ -15,7 +15,7 @@ Work experience
 ======
 
 * 2021 - current: PhD candidate in actuarial science at KU Leuven, Belgium
-  * Started my PhD in November 2021 under supervision of Prof. dr. Katrien Antonio. Main focus will be the use of machine learning in actuarial science, with a focus on interpretabililty and usability in practice.
+  * Started my PhD in November 2021 under supervision of Prof. dr. Katrien Antonio. Focus is on machine learning and deep learning application in non-life insurance and risk management.
 
 * 2015 - 2021: Risk modelling expert at NN Life Insurance, Belgium
   * My traineeship at Delta Lloyd Life transitioned into a full-time position as Risk Modelling Expert in the Delta Lloyd Life Risk Modelling team. In 2017, Delta Lloyd merged with NN Insurance.
@@ -111,5 +111,5 @@ Personal interests
 ======
 
 * Founder and head of the Project TableTop VZW in Herent, Belgium. We have been organising events around boardgames since 2017, most notably the yearly event <a href="https://www.hexgames.be/" target="_blank">HEX</a>.
-* Woodcarver and woodturner under the pseudonym <a href="https://www.instagram.com/woodenpandas/" target="_blank">Wooden Pandas</a>. Completed four years of woordcarving school at Qrios Leuven.
-* Trivia: fan of punkrock, postrock, and metal (melodic, trash) music. Used to be active in youth movement (Chiro). During my studies I was active in the student organisation Wina VZW.
+* Woodcarver and woodturner under the pseudonym <a href="https://www.instagram.com/woodenpandas/" target="_blank">Wooden Pandas</a>. Completed four years of woodcarving school at Qrios Leuven.
+* Trivia: fan of punkrock, postrock, and metal (melodic, thrash) music. Used to be active in youth movement (Chiro). During my studies I was active in the student organisation Wina VZW.
