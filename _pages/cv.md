@@ -14,9 +14,12 @@ redirect_from:
 Work experience
 ======
 
-* 2021 - current: PhD candidate in actuarial science at KU Leuven, Belgium
-  * Started my PhD in November 2021 under supervision of Prof. dr. Katrien Antonio. Focus is on machine learning and deep learning application in non-life insurance and risk management.
-  * Public defence of the PhD planned for 26 August, 2026.
+* 2026 - current: Postdoctoral researcher in actuarial science at KU Leuven, Belgium
+  * Started my postdoctoral research in September 2026, working with Prof. dr. Katrien Antonio. Focus is on climate impact modelling.
+
+* 2021 - 2026: PhD candidate in actuarial science at KU Leuven, Belgium
+  * PhD from November 2021 under supervision of Prof. dr. Katrien Antonio. Focus was on machine learning and deep learning application in non-life insurance and risk management.
+  * Public defence of the PhD on 26 August, 2026.
 
 * 2015 - 2021: Risk modelling expert at NN Life Insurance, Belgium
   * My traineeship at Delta Lloyd Life transitioned into a full-time position as Risk Modelling Expert in the Delta Lloyd Life Risk Modelling team. In 2017, Delta Lloyd merged with NN Insurance.
@@ -32,9 +35,10 @@ Services
 ======
 
 * 2021 - current: Member of the POC MAFE/MAFW
-* 2023 - current: Elected ABAP representative for the insurance research group
-* 2024 - current: Member of the Subcommision MAFE/ZIM
-* 2025 - current: Member of the AFI council (as ABAP representative)
+* 2023 - 2026: Elected ABAP representative for the insurance research group
+* 2024 - 2026: Member of the Subcommision MAFE/ZIM
+* 2025 - 2026: Member of the AFI council (as ABAP representative)
+* 2026 - current: FPOC member as ABAP representative
 * Peer review service: ASTIN Bulletin, European Actuarial Journal, Insurance: Mathematics and Economics
 
 <hr style="border: none; border-top: 2px solid gray;" />
@@ -49,7 +53,7 @@ Teaching
 * Teaching assistant
   * 2021 - current: TA for the course Solvency of Financial Institutions. My tasks involved co-organizing the course structure, making contact with industry speakers from KBC, EY, AG Insurance, National Bank of Belgium and QBE Re, and the organization and grading of tests, exams and assignments.
 * Master thesis workleader
-  * 2021 - current: Workleader for master theses in the MAFE program and the Statistics & Data Science program at KU Leuven. Supervised over ten master theses between 2021 and current.
+  * 2021 - current: Workleader for master theses in the MAFE program and the Statistics & Data Science program at KU Leuven. Supervised over twenty master theses between 2021 and current.
 
 <hr style="border: none; border-top: 2px solid gray;" />
 
@@ -101,7 +105,7 @@ Talks
 Education
 ======
 
-* Ph.D in Actuarial science, KU Leuven, Belgium, 2026 (expected)
+* Ph.D in Actuarial science, KU Leuven, Belgium, 2026
 * M.S. in Actuarial and Financial Engineering, KU Leuven, Belgium, 2021
 * M.S. in Insurance, KU Leuven, Belgium, 2014
 * B.S. in Mathematics, KU Leuven, 2013
