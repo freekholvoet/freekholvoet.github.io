@@ -38,7 +38,6 @@ Services
 * 2023 - 2026: Elected ABAP representative for the insurance research group
 * 2024 - 2026: Member of the Subcommision MAFE/ZIM
 * 2025 - 2026: Member of the AFI council (as ABAP representative)
-* 2026 - current: FPOC member as ABAP representative
 * Peer review service: ASTIN Bulletin, European Actuarial Journal, Insurance: Mathematics and Economics
 
 <hr style="border: none; border-top: 2px solid gray;" />
