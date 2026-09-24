@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div style="text-align: justify;">
-I am Freek, a postdoctoral researcher in actuarial science at KU Leuven, working with <a href="https://katrienantonio.github.io" target="_blank">Prof. Katrien Antonio</a>. I completed my PhD in August 2026 and continue at KU Leuven as a postdoctoral researcher, with my research centred on climate impact modelling. During my studies in mathematics and actuarial science, I gained practical experience at Delta Lloyd Life Insurance in Brussels, followed by nearly eight years specialising in risk modelling before returning to academia.
+I am Freek, a postdoctoral researcher in actuarial science at KU Leuven, working with <a href="https://katrienantonio.github.io" target="_blank">Prof. Katrien Antonio</a>. I completed my PhD in August 2026 and continue at KU Leuven as a postdoctoral researcher, with my research centred on climate impact modelling. During my studies in mathematics and actuarial science, I gained practical experience at Delta Lloyd Life Insurance & NN Life Insurance in Brussels, followed by nearly eight years specialising in risk modelling before returning to academia.
 <br>
 <br>
 My research develops machine learning methods for decisions that carry financial and regulatory consequences. I work on interpretable and defensible models for pricing and risk assessment in insurance, on representing geographical and spatial information so that it can actually be used in practice, and on modelling dependence between perils and the joint extremes that drive the largest losses. Running through all of it is a concern with what happens between a model and a decision: whether the output can be explained, validated and trusted by the people and institutions that have to rely on it.
