@@ -14,7 +14,7 @@ I am Freek, a postdoctoral researcher in actuarial science at KU Leuven, working
 My research develops machine learning methods for decisions that carry financial and regulatory consequences. I work on interpretable and defensible models for pricing and risk assessment in insurance, on representing geographical and spatial information so that it can actually be used in practice, and on modelling dependence between perils and the joint extremes that drive the largest losses. Running through all of it is a concern with what happens between a model and a decision: whether the output can be explained, validated and trusted by the people and institutions that have to rely on it.
 <br>
 <br>
-More recently my work has moved towards climate risk. I am the researcher on a two-year research project (Oct 2026 - Sept 2028) building a climate-risk engine that turns satellite, weather and building data into per-building, per-peril risk scores, developed together with industry partners. From the 2026-2027 academic year I also teach on information systems, business intelligence and AI at KU Leuven (both Leuven and Kortrijk campus).
+More recently my work has moved towards climate risk. I am the researcher on a two-year research project (Oct 2026 - Sept 2028) building a climate-risk engine that turns satellite, weather and building data into per-building, per-peril risk scores, developed together with industry partners. From the 2026-2027 academic year I also coordinate and teach three courses on Business Information Systems at KU Leuven (both Leuven and Kortrijk campus), covering information systems strategy, business intelligence and AI.
 </div>
 
 <!-- Banner -->
