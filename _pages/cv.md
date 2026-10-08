@@ -58,7 +58,7 @@ Teaching
 
 Research visits
 ======
-* October 2026 (upcoming)
+* October 2026
   * University of Toronto, with Prof. Christopher Blier-Wong.
 * January 2026
   * HEC Lausanne, with Prof. Hansjoerg Albrecher.
